@@ -3,9 +3,16 @@ body, p {
     margin: 0;
 }
 
-.header {
+.header, .footer {
     background-image: linear-gradient(to bottom right, rgb(38, 179, 207), rgb(85, 25, 144));
+}
+
+.header {
     padding: 0px 100px 40px;
+}
+
+.footer {
+    padding: 20px;
 }
 
 .header-top {
@@ -67,13 +74,14 @@ button {
     color: rgba(255, 255, 255, 0.726);
     border-color: rgba(255, 255, 255, 0.726);
     border-radius: 5px;
-    width: 80px;
+    width: 100px;
     height: 25px;
 }
 
 .img-container {
     height: 250px;
     max-width: 300px;
+    margin-left: 20px;
 }
 
 .info-title {
@@ -100,7 +108,7 @@ button {
     max-height: 150px;
 }
 
-.body {
+.body, .footer-txt {
     text-align: center;
 }
 
@@ -126,4 +134,40 @@ button {
     font-size: 12px;
     font-weight: 600;
     text-align: right;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 50px 100px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.su-txt {
+    display: flex;
+    flex-direction: column;
+    color: #eff0f5c9;
+    text-align: left;
+}
+
+.su-title {
+    font-weight: 600;
+}
+
+.bottom-btn {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.su-info {
+    font-size: 12px;
+}
+
+.footer-txt {
+    color: #eff0f5c9;
+    font-size: 12px;
 }
