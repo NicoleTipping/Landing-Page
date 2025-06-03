@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ostrich {
+    background-image: url("../images/grass.jpg");
+    background-size: 800px;
+}
+
+.space {
+    background-image: url("../images/space-bg.jpg");
+    background-size: 1000px;
+}
+
+.party {
+    background-image: url("../images/party-bg.jpg");
+    background-size: 1000px;
+}
+
+.page-cntr {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.page-img {
+    min-width: 450px;
+    min-height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.page-txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 221, 221);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 40px 20px;
+}
+
+.page-btn {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+        color: rgba(255, 255, 255, 0.726);
+}
+
+button {
+    background-color: #3882f6;
+    border-color: rgba(255, 255, 255, 0.726);
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
